@@ -1,4 +1,44 @@
 
+
+.nav-logo h2 {
+    background: linear-gradient(135deg, #2460a7ff 0%, #85B3D1FF 100%) !important;
+    background-clip: text !important; 
+}
+
+.nav-link.active {
+    color: #2460a7ff !important;
+}
+
+.nav-link:hover {
+    color: #2460a7ff !important;
+}
+
+.nav-link::after {
+    background: linear-gradient(135deg, #2460a7ff 0%, #85B3D1FF 100%) !important;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #2460a7ff 0%, #85B3D1FF 100%) !important;
+    box-shadow: 0 4px 15px rgba(27, 166, 247, 0.3) !important
+}
+
+.btn-primary:hover {
+    box-shadow: 0 4px 15px rgba(27, 166, 247, 0.3) !important
+}
+
+.newsletter-section, .stats-section {
+    background: linear-gradient(135deg, #2460a7ff 0%, #85B3D1FF 100%) !important;
+}
+
+.value-item {
+    border-color: #2460a7ff !important
+}
+
+.footer-section h3 {
+    background: linear-gradient(135deg, #2460a7ff 0%, #85B3D1FF 100%) !important;
+    background-clip: text !important; 
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 .cookie-wrapper {
@@ -29,12 +69,12 @@
     display: none;
 }
 .cookie-wrapper header i {
-    color: #f4df4eff;
+    color: #85B3D1FF;
     font-size: 32px;
     text-align: center;
 }
 .cookie-wrapper header h2 {
-    color: #f4df4eff;
+    color: #85B3D1FF;
     font-weight: 500;
     text-align: center;
 }
@@ -42,7 +82,7 @@
     text-align: center;
 }
 .data p a {
-    color: #f4df4eff;
+    color: #85B3D1FF;
     text-decoration: none;
     text-align: center !important;
 }
@@ -54,10 +94,10 @@
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #f4df4eff;
+    border: 2px solid #85B3D1FF;
     color: #fff;
     padding: 8px 0;
-      background: linear-gradient(135deg, #f7641b 0%, #fcd805 100%);
+    background: linear-gradient(135deg, #2460a7ff 0%, #85B3D1FF 100%);
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.2s ease;
@@ -66,18 +106,18 @@
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #f4df4eff;
+    color: #85B3D1FF;
 }
 #declineBtn {
     background-color: #fff;
-    color: #f4df4eff;
+    color: #85B3D1FF;
     border-radius: 30px;
 }
 #declineBtn:hover {
-    background-color: #f4df4eff;
+    background-color: #85B3D1FF;
     color: #fff;
 }
 #result {
-    color: #f4df4eff;
+    color: #85B3D1FF;
     font-size: 14px;
 }
